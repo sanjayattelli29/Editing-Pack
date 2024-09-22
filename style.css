@@ -8,9 +8,9 @@
 html {
     scroll-behavior: smooth;
     /* Variables For Storing Colors */
-    --primary-clr: #208245;
+    --primary-clr: #0057af;
     --primary-medium-clr: #d8e9df;
-    --primary-light-clr: #edfaf1;
+    --primary-light-clr: #ffffff;
     --bg-clr-1: #ffffff;
     --dark-heading-clr: #232d39;
     --dark-text-clr: #6c757d;
@@ -716,6 +716,7 @@ section.categories {
     background-color: var(--primary-light-clr);
     padding: 25px 15px;
     border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -776,6 +777,7 @@ section.instructor {
     padding: 70px 8%;
     background-color: var(--primary-light-clr);
     border-radius: 0px 100px 0px 100px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .instructor-container h2 {
@@ -808,6 +810,7 @@ section.testimonials {
     position: relative;
     padding: 20px 25px;
     background-color: var(--primary-light-clr);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .testimonials-item .profile {
